@@ -3,7 +3,7 @@
 Automated daily security intelligence for blockchain / smart-contract bug bounty hunting. Generated every day at 11:00 JST.
 
 **Scope:** EVM/Solidity · Solana/Rust · Cosmos/Move · cross-chain bridges — DeFi-prioritized.
-**Latest briefing:** [2026-06-15](briefings/2026-06-15.md)
+**Latest briefing:** [2026-06-16](briefings/2026-06-16.md)
 
 ---
 
@@ -11,6 +11,7 @@ Automated daily security intelligence for blockchain / smart-contract bug bounty
 
 | Date | TL;DR | Incidents | Bug classes | $ at risk |
 |------|-------|-----------|-------------|-----------|
+| [2026-06-16](briefings/2026-06-16.md) | Thetanuts Finance $2.1M flash-loan math flaw in deprecated options vault; Node.js HIGH CVEs drop June 17 — patch keeper bots immediately. | Thetanuts Finance $2.1M | flash-loan, rounding, logic-error | ~$2.1M |
 | [2026-06-15](briefings/2026-06-15.md) | Quiet 24h window; Flooring Protocol BT404 packed-storage underflow enables phantom-balance NFT drain (whitehat rescued); AI agent memory poisoning claimed $45M in 2026. | Flooring Protocol ~$500K NFTs (catch-up Jun 8), Unleash Protocol $3.9M (catch-up) | integer-overflow, rounding, logic-error, access-control | ~$4.4M (catch-up items; no new drains Jun 14–15) |
 | [2026-06-14](briefings/2026-06-14.md) | No new June 14 drains; Alephium forged-VAA bridge-DVN kill chain detailed; Aave raises max bounty to $5M across three platforms. | Alephium $815K (forensics), AFI Protocol $480K (catch-up) | bridge-dvn, signature-replay, logic-error | ~$1.3M (catch-up items) |
 | [2026-06-13](briefings/2026-06-13.md) | Quantstamp pins Humanity Protocol's $36M breach on DPRK phishing; OpenZeppelin Wizard CVE-2026-48054 injects code into generated test scaffolds. | Humanity Protocol $36M (DPRK attribution), CVE-2026-48054 OZ Wizard | key-management, upgradeability, access-control, supply-chain | ~$36M (forensic update; no new drains) |
@@ -22,13 +23,13 @@ Automated daily security intelligence for blockchain / smart-contract bug bounty
 
 *Each tag links to every briefing where that class appeared — your pattern library. Sorted by frequency (most briefings first).*
 
-- **logic-error** — [2026-06-12](briefings/2026-06-12.md), [2026-06-14](briefings/2026-06-14.md), [2026-06-15](briefings/2026-06-15.md)
+- **logic-error** — [2026-06-12](briefings/2026-06-12.md), [2026-06-14](briefings/2026-06-14.md), [2026-06-15](briefings/2026-06-15.md), [2026-06-16](briefings/2026-06-16.md)
 - **access-control** — [2026-06-13](briefings/2026-06-13.md), [2026-06-15](briefings/2026-06-15.md)
 - **bridge-dvn** — [2026-06-12](briefings/2026-06-12.md), [2026-06-14](briefings/2026-06-14.md)
+- **flash-loan** — [2026-06-12](briefings/2026-06-12.md), [2026-06-16](briefings/2026-06-16.md)
 - **key-management** — [2026-06-12](briefings/2026-06-12.md), [2026-06-13](briefings/2026-06-13.md)
-- **flash-loan** — [2026-06-12](briefings/2026-06-12.md)
+- **rounding** — [2026-06-15](briefings/2026-06-15.md), [2026-06-16](briefings/2026-06-16.md)
 - **integer-overflow** — [2026-06-15](briefings/2026-06-15.md)
-- **rounding** — [2026-06-15](briefings/2026-06-15.md)
 - **signature-replay** — [2026-06-14](briefings/2026-06-14.md)
 - **supply-chain** — [2026-06-13](briefings/2026-06-13.md)
 - **unverified-contract** — [2026-06-12](briefings/2026-06-12.md)
@@ -38,11 +39,10 @@ Automated daily security intelligence for blockchain / smart-contract bug bounty
 
 ## 📊 Stats
 
-- **Total briefings:** 4
-- **Date range:** 2026-06-12 → 2026-06-15
+- **Total briefings:** 5
+- **Date range:** 2026-06-12 → 2026-06-16
 - **Top 3 bug classes by briefing count:**
-  1. `logic-error` — 3 briefings
-  2. `access-control` — 2 briefings
-  3. `bridge-dvn` — 2 briefings  *(tied: also `key-management` — 2 briefings)*
-- **Cumulative $ at risk tracked:** ~$49.6M across all briefings
+  1. `logic-error` — 4 briefings
+  2. `access-control` — 2 briefings · `bridge-dvn` — 2 briefings · `flash-loan` — 2 briefings · `key-management` — 2 briefings · `rounding` — 2 briefings *(five-way tie for 2nd)*
+- **Cumulative $ at risk tracked:** ~$51.7M across all briefings
 - **Chains covered:** Ethereum, BNB, Solana, Sui, Cosmos, Alephium
