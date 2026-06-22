@@ -2,7 +2,7 @@
 
 Automated daily security intelligence for blockchain / smart-contract bug bounty hunting. Generated every day at 11:00 JST.
 **Scope:** EVM/Solidity · Solana/Rust · Cosmos/Move · cross-chain bridges — DeFi-prioritized.
-**Latest briefing:** [2026-06-21](briefings/2026-06-21.md)
+**Latest briefing:** [2026-06-22](briefings/2026-06-22.md)
 
 ---
 
@@ -10,6 +10,7 @@ Automated daily security intelligence for blockchain / smart-contract bug bounty
 
 | Date | TL;DR | Incidents | Bug classes | $ at risk |
 |------|-------|-----------|-------------|-----------|
+| [2026-06-22](briefings/2026-06-22.md) | Namada MASP $600K IBC logic drain (Jun 19 catch-up) masked by stale indexer; VWAP thin-liquidity oracle attack class detailed via BlockSec YieldBlox post-mortem. | Namada MASP $600K (catch-up Jun 19) | logic-error, bridge-dvn, oracle-manipulation, price-manipulation | ~$600K |
 | [2026-06-21](briefings/2026-06-21.md) | Aztec `escapeHatch()` autopsied — TurboVerifier accepts spoofed ZK public inputs; CVSS-10 Joomla JCE RCE in CISA KEV hits crypto web infra. | Aztec RollupProcessor $2.21M (Jun 17–18 analysis), CVE-2026-48907 | access-control, logic-error, unverified-contract | n/a (no new 24h drains) |
 | [2026-06-20](briefings/2026-06-20.md) | No new 24h drain confirmed; abandoned-contract pattern accounts for 4 of June's 16 incidents; OWASP SC10:2026 proxy-upgradeability entry formalizes the threat. | (quiet 24h window) | unverified-contract, logic-error, upgradeability, oracle-manipulation | n/a |
 | [2026-06-19](briefings/2026-06-19.md) | $127M cross-chain bridge drained June 14 via dual validator+finality bypass; Node.js drops 2 HIGH CVEs June 18 — patch all blockchain tooling now. | Unnamed 3-protocol bridge $127M (catch-up Jun 14), Node.js HIGH CVEs | bridge-dvn, key-management, logic-error, dos | ~$127M |
@@ -27,28 +28,28 @@ Automated daily security intelligence for blockchain / smart-contract bug bounty
 
 Each tag links to every briefing where that class appeared. Sorted by frequency (most → least).
 
-- **logic-error** — [2026-06-12](briefings/2026-06-12.md), [2026-06-14](briefings/2026-06-14.md), [2026-06-15](briefings/2026-06-15.md), [2026-06-16](briefings/2026-06-16.md), [2026-06-17](briefings/2026-06-17.md), [2026-06-19](briefings/2026-06-19.md), [2026-06-20](briefings/2026-06-20.md), [2026-06-21](briefings/2026-06-21.md) *(8 briefings)*
+- **logic-error** — [2026-06-12](briefings/2026-06-12.md), [2026-06-14](briefings/2026-06-14.md), [2026-06-15](briefings/2026-06-15.md), [2026-06-16](briefings/2026-06-16.md), [2026-06-17](briefings/2026-06-17.md), [2026-06-19](briefings/2026-06-19.md), [2026-06-20](briefings/2026-06-20.md), [2026-06-21](briefings/2026-06-21.md), [2026-06-22](briefings/2026-06-22.md) *(9 briefings)*
 - **key-management** — [2026-06-12](briefings/2026-06-12.md), [2026-06-13](briefings/2026-06-13.md), [2026-06-17](briefings/2026-06-17.md), [2026-06-18](briefings/2026-06-18.md), [2026-06-19](briefings/2026-06-19.md) *(5 briefings)*
+- **bridge-dvn** — [2026-06-12](briefings/2026-06-12.md), [2026-06-14](briefings/2026-06-14.md), [2026-06-17](briefings/2026-06-17.md), [2026-06-19](briefings/2026-06-19.md), [2026-06-22](briefings/2026-06-22.md) *(5 briefings)*
 - **access-control** — [2026-06-13](briefings/2026-06-13.md), [2026-06-15](briefings/2026-06-15.md), [2026-06-18](briefings/2026-06-18.md), [2026-06-21](briefings/2026-06-21.md) *(4 briefings)*
-- **bridge-dvn** — [2026-06-12](briefings/2026-06-12.md), [2026-06-14](briefings/2026-06-14.md), [2026-06-17](briefings/2026-06-17.md), [2026-06-19](briefings/2026-06-19.md) *(4 briefings)*
 - **supply-chain** — [2026-06-13](briefings/2026-06-13.md), [2026-06-17](briefings/2026-06-17.md), [2026-06-18](briefings/2026-06-18.md) *(3 briefings)*
 - **upgradeability** — [2026-06-13](briefings/2026-06-13.md), [2026-06-18](briefings/2026-06-18.md), [2026-06-20](briefings/2026-06-20.md) *(3 briefings)*
 - **unverified-contract** — [2026-06-12](briefings/2026-06-12.md), [2026-06-20](briefings/2026-06-20.md), [2026-06-21](briefings/2026-06-21.md) *(3 briefings)*
+- **oracle-manipulation** — [2026-06-20](briefings/2026-06-20.md), [2026-06-22](briefings/2026-06-22.md) *(2 briefings)*
 - **flash-loan** — [2026-06-12](briefings/2026-06-12.md), [2026-06-16](briefings/2026-06-16.md) *(2 briefings)*
 - **rounding** — [2026-06-15](briefings/2026-06-15.md), [2026-06-16](briefings/2026-06-16.md) *(2 briefings)*
 - **dos** — [2026-06-19](briefings/2026-06-19.md) *(1 briefing)*
 - **integer-overflow** — [2026-06-15](briefings/2026-06-15.md) *(1 briefing)*
-- **oracle-manipulation** — [2026-06-20](briefings/2026-06-20.md) *(1 briefing)*
+- **price-manipulation** — [2026-06-22](briefings/2026-06-22.md) *(1 briefing)*
 - **signature-replay** — [2026-06-14](briefings/2026-06-14.md) *(1 briefing)*
 
 ---
 
 ## 📊 Stats
 
-- **Total briefings:** 10
-- **Date range:** 2026-06-12 → 2026-06-21 (10 days)
+- **Total briefings:** 11
+- **Date range:** 2026-06-12 → 2026-06-22 (11 days)
 - **Top bug classes by briefing count:**
-  1. `logic-error` — 8 of 10 briefings (the single most persistent class; present in nearly every incident)
-  2. `key-management` — 5 of 10 briefings (compromised keys now the #1 loss vector in H1 2026 by $ value)
-  3. `access-control` — 4 of 10 briefings (tied with `bridge-dvn`; emergency-path auth failures are a growing sub-pattern)
-  4. `bridge-dvn` — 4 of 10 briefings (cross-chain bridge validator compromise drives the largest single losses)
+  1. `logic-error` — 9 of 11 briefings (the single most persistent class; present in nearly every incident cluster)
+  2. `key-management` — 5 of 11 briefings (compromised keys now the #1 loss vector in H1 2026 by $ value; DPRK-linked groups drive the majority)
+  3. `bridge-dvn` — 5 of 11 briefings (cross-chain bridge validator/DVN compromise drives the largest individual losses; DVN 1-of-1 configs are the root cause pattern)
