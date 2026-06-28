@@ -2,7 +2,7 @@
 
 Automated daily security intelligence for blockchain / smart-contract bug bounty hunting. Generated every day at 11:00 JST.
 **Scope:** EVM/Solidity · Solana/Rust · Cosmos/Move · cross-chain bridges — DeFi-prioritized.
-**Latest briefing:** [2026-06-27](briefings/2026-06-27.md)
+**Latest briefing:** [2026-06-28](briefings/2026-06-28.md)
 
 ---
 
@@ -10,6 +10,7 @@ Automated daily security intelligence for blockchain / smart-contract bug bounty
 
 | Date | TL;DR | Incidents | Bug classes | $ at risk |
 |---|---|---|---|---|
+| [2026-06-28](briefings/2026-06-28.md) | Polymarket loses $3M in supply-chain CDN vendor injection; expr-eval CVE-2026-12866 CVSS-9.8 RCE threatens DAO governance portals | Polymarket $3M supply-chain frontend injection, CVE-2026-12866 expr-eval | supply-chain, key-management, logic-error, access-control | ~$3M |
 | [2026-06-27](briefings/2026-06-27.md) | No new drains Jun 26–27; DARKNAVY publishes definitive Aztec escapeHatch() ZK witness-binding gap autopsy | *(no new drains)*; DARKNAVY Aztec circuit analysis | logic-error, access-control, supply-chain, key-management | n/a (strict 24–48h) |
 | [2026-06-25](briefings/2026-06-25.md) | Taiko L2 bridge loses $1.7M after SGX signing key leaked to GitHub; LABUBU/OLPC pool drained $1.1M via token parameter desync on BNB Chain | Taiko Bridge SGX key leak $1.7M, OLPC/LABUBU PancakeSwap $1.1M, mySwap CL Starknet $305K | key-management, bridge-dvn, price-manipulation, oracle-manipulation, logic-error | ~$3.1M |
 | [2026-06-24](briefings/2026-06-24.md) | JaredFromSubway MEV bot drained $15M via counter-MEV honeypot; ENS lookalike flaw enables on-chain identity spoofing | JaredFromSubway MEV honeypot $15M, ENS lookalike display flaw | logic-error, unverified-contract, access-control | ~$15M |
@@ -32,15 +33,15 @@ Automated daily security intelligence for blockchain / smart-contract bug bounty
 
 *Sort: most frequently appearing tags first*
 
-- **logic-error** — [2026-06-27](briefings/2026-06-27.md), [2026-06-25](briefings/2026-06-25.md), [2026-06-24](briefings/2026-06-24.md), [2026-06-22](briefings/2026-06-22.md), [2026-06-21](briefings/2026-06-21.md), [2026-06-20](briefings/2026-06-20.md), [2026-06-19](briefings/2026-06-19.md), [2026-06-17](briefings/2026-06-17.md), [2026-06-16](briefings/2026-06-16.md), [2026-06-15](briefings/2026-06-15.md), [2026-06-14](briefings/2026-06-14.md), [2026-06-12](briefings/2026-06-12.md)
+- **logic-error** — [2026-06-28](briefings/2026-06-28.md), [2026-06-27](briefings/2026-06-27.md), [2026-06-25](briefings/2026-06-25.md), [2026-06-24](briefings/2026-06-24.md), [2026-06-22](briefings/2026-06-22.md), [2026-06-21](briefings/2026-06-21.md), [2026-06-20](briefings/2026-06-20.md), [2026-06-19](briefings/2026-06-19.md), [2026-06-17](briefings/2026-06-17.md), [2026-06-16](briefings/2026-06-16.md), [2026-06-15](briefings/2026-06-15.md), [2026-06-14](briefings/2026-06-14.md), [2026-06-12](briefings/2026-06-12.md)
 
-- **key-management** — [2026-06-27](briefings/2026-06-27.md), [2026-06-25](briefings/2026-06-25.md), [2026-06-23](briefings/2026-06-23.md), [2026-06-19](briefings/2026-06-19.md), [2026-06-18](briefings/2026-06-18.md), [2026-06-17](briefings/2026-06-17.md), [2026-06-13](briefings/2026-06-13.md), [2026-06-12](briefings/2026-06-12.md)
+- **key-management** — [2026-06-28](briefings/2026-06-28.md), [2026-06-27](briefings/2026-06-27.md), [2026-06-25](briefings/2026-06-25.md), [2026-06-23](briefings/2026-06-23.md), [2026-06-19](briefings/2026-06-19.md), [2026-06-18](briefings/2026-06-18.md), [2026-06-17](briefings/2026-06-17.md), [2026-06-13](briefings/2026-06-13.md), [2026-06-12](briefings/2026-06-12.md)
 
-- **access-control** — [2026-06-27](briefings/2026-06-27.md), [2026-06-24](briefings/2026-06-24.md), [2026-06-23](briefings/2026-06-23.md), [2026-06-21](briefings/2026-06-21.md), [2026-06-18](briefings/2026-06-18.md), [2026-06-15](briefings/2026-06-15.md), [2026-06-13](briefings/2026-06-13.md)
+- **access-control** — [2026-06-28](briefings/2026-06-28.md), [2026-06-27](briefings/2026-06-27.md), [2026-06-24](briefings/2026-06-24.md), [2026-06-23](briefings/2026-06-23.md), [2026-06-21](briefings/2026-06-21.md), [2026-06-18](briefings/2026-06-18.md), [2026-06-15](briefings/2026-06-15.md), [2026-06-13](briefings/2026-06-13.md)
+
+- **supply-chain** — [2026-06-28](briefings/2026-06-28.md), [2026-06-27](briefings/2026-06-27.md), [2026-06-18](briefings/2026-06-18.md), [2026-06-17](briefings/2026-06-17.md), [2026-06-13](briefings/2026-06-13.md)
 
 - **bridge-dvn** — [2026-06-25](briefings/2026-06-25.md), [2026-06-23](briefings/2026-06-23.md), [2026-06-22](briefings/2026-06-22.md), [2026-06-19](briefings/2026-06-19.md), [2026-06-17](briefings/2026-06-17.md), [2026-06-14](briefings/2026-06-14.md), [2026-06-12](briefings/2026-06-12.md)
-
-- **supply-chain** — [2026-06-27](briefings/2026-06-27.md), [2026-06-18](briefings/2026-06-18.md), [2026-06-17](briefings/2026-06-17.md), [2026-06-13](briefings/2026-06-13.md)
 
 - **oracle-manipulation** — [2026-06-25](briefings/2026-06-25.md), [2026-06-22](briefings/2026-06-22.md), [2026-06-20](briefings/2026-06-20.md)
 
@@ -64,12 +65,12 @@ Automated daily security intelligence for blockchain / smart-contract bug bounty
 
 ## 📊 Stats
 
-- **Total briefings:** 15 (June 12–27, 2026; June 26 gap)
-- **Date range covered:** 2026-06-12 → 2026-06-27 (16-day span)
+- **Total briefings:** 16 (June 12–28, 2026; June 26 gap)
+- **Date range covered:** 2026-06-12 → 2026-06-28 (17-day span)
 - **Top 3 most-frequent bug classes:**
-  1. `logic-error` — 12 briefings
-  2. `key-management` — 8 briefings
-  3. `access-control` — 7 briefings
-- **Estimated cumulative losses covered:** ~$215M+ (June 2026 on-chain incidents)
+  1. `logic-error` — 13 briefings
+  2. `key-management` — 9 briefings
+  3. `access-control` — 8 briefings
+- **Estimated cumulative losses covered:** ~$218M+ (June 2026 on-chain incidents)
 - **Largest single incident tracked:** JaredFromSubway MEV honeypot ~$15M (June 24); Q2 2026 record: 83 incidents / $755M (June 23)
-- **Most active chains:** Ethereum (13/15 briefings), BNB (5), Solana (3), Cosmos (3), Starknet (1), Sui (1)
+- **Most active chains:** Ethereum (14/16 briefings), BNB (5), Solana (3), Cosmos (3), Polygon (2), Starknet (1), Sui (1)
