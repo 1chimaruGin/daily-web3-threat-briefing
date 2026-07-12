@@ -4,7 +4,7 @@ Automated daily security intelligence for blockchain / smart-contract bug bounty
 
 **Scope:** EVM/Solidity · Solana/Rust · Cosmos/Move · cross-chain bridges — DeFi-prioritized.
 
-**Latest briefing:** [2026-07-11](briefings/2026-07-11.md)
+**Latest briefing:** [2026-07-12](briefings/2026-07-12.md)
 
 ---
 
@@ -12,6 +12,7 @@ Automated daily security intelligence for blockchain / smart-contract bug bounty
 
 | Date | TL;DR | Incidents | Bug classes | $ at risk |
 |---|---|---|---|---|
+| [2026-07-12](briefings/2026-07-12.md) | Bonzo Lend (Hedera) drained $9M via 12-order-of-magnitude oracle price manipulation; Ill Bloom PRNG flaw keeps draining wallets ($5M+ confirmed). | Bonzo Lend $9M, Ill Bloom $5M+ (ongoing) | oracle-manipulation, price-manipulation, key-management, flash-loan | ~$14M new |
 | [2026-07-11](briefings/2026-07-11.md) | No new confirmed drain in 24h; GMX V1 $44M compensation plan advances as attacker returns $37M; OZ Wizard CVE-2026-48054 supply-chain risk day 28. | GMX V1 $42M (recovery), BonkDAO $20M, Altura $39M, Summer.fi $6M, ResupplyFi $9.6M | reentrancy, flash-loan, access-control, logic-error, supply-chain | ~$75M |
 | [2026-07-10](briefings/2026-07-10.md) | GMX V1 GLP pool drained $42M via keeper-reentrancy on Arbitrum; attacker returned funds for $5M bounty; four prior incidents still active. | GMX V1 $42M, Summer.fi $6M, BonkDAO $20M, Altura $39M, ResupplyFi $9.6M | reentrancy, flash-loan, access-control, logic-error, key-management | ~$107M |
 | [2026-07-09](briefings/2026-07-09.md) | No new major drain in 24h; CertiK H1 2026 flags wallet compromise as #1 loss vector ($444M); Summer.fi $6M laundering confirmed via Tornado Cash. | Summer.fi ongoing, BonkDAO ongoing | key-management, flash-loan, access-control, logic-error | ~$75M |
@@ -50,7 +51,7 @@ _Sorted by frequency across all briefings (most-cited first). Each date links to
 
 - **logic-error** (22 briefings) — [06-12](briefings/2026-06-12.md), [06-14](briefings/2026-06-14.md), [06-15](briefings/2026-06-15.md), [06-16](briefings/2026-06-16.md), [06-17](briefings/2026-06-17.md), [06-19](briefings/2026-06-19.md), [06-20](briefings/2026-06-20.md), [06-21](briefings/2026-06-21.md), [06-22](briefings/2026-06-22.md), [06-24](briefings/2026-06-24.md), [06-25](briefings/2026-06-25.md), [06-27](briefings/2026-06-27.md), [06-28](briefings/2026-06-28.md), [06-29](briefings/2026-06-29.md), [06-30](briefings/2026-06-30.md), [07-04](briefings/2026-07-04.md), [07-05](briefings/2026-07-05.md), [07-07](briefings/2026-07-07.md), [07-08](briefings/2026-07-08.md), [07-09](briefings/2026-07-09.md), [07-10](briefings/2026-07-10.md), [07-11](briefings/2026-07-11.md)
 
-- **key-management** (20 briefings) — [06-12](briefings/2026-06-12.md), [06-13](briefings/2026-06-13.md), [06-17](briefings/2026-06-17.md), [06-18](briefings/2026-06-18.md), [06-19](briefings/2026-06-19.md), [06-23](briefings/2026-06-23.md), [06-25](briefings/2026-06-25.md), [06-27](briefings/2026-06-27.md), [06-28](briefings/2026-06-28.md), [06-29](briefings/2026-06-29.md), [06-30](briefings/2026-06-30.md), [07-01](briefings/2026-07-01.md), [07-02](briefings/2026-07-02.md), [07-03](briefings/2026-07-03.md), [07-04](briefings/2026-07-04.md), [07-05](briefings/2026-07-05.md), [07-06](briefings/2026-07-06.md), [07-07](briefings/2026-07-07.md), [07-09](briefings/2026-07-09.md), [07-10](briefings/2026-07-10.md)
+- **key-management** (21 briefings) — [06-12](briefings/2026-06-12.md), [06-13](briefings/2026-06-13.md), [06-17](briefings/2026-06-17.md), [06-18](briefings/2026-06-18.md), [06-19](briefings/2026-06-19.md), [06-23](briefings/2026-06-23.md), [06-25](briefings/2026-06-25.md), [06-27](briefings/2026-06-27.md), [06-28](briefings/2026-06-28.md), [06-29](briefings/2026-06-29.md), [06-30](briefings/2026-06-30.md), [07-01](briefings/2026-07-01.md), [07-02](briefings/2026-07-02.md), [07-03](briefings/2026-07-03.md), [07-04](briefings/2026-07-04.md), [07-05](briefings/2026-07-05.md), [07-06](briefings/2026-07-06.md), [07-07](briefings/2026-07-07.md), [07-09](briefings/2026-07-09.md), [07-10](briefings/2026-07-10.md), [07-12](briefings/2026-07-12.md)
 
 - **access-control** (14 briefings) — [06-13](briefings/2026-06-13.md), [06-15](briefings/2026-06-15.md), [06-18](briefings/2026-06-18.md), [06-21](briefings/2026-06-21.md), [06-23](briefings/2026-06-23.md), [06-24](briefings/2026-06-24.md), [06-27](briefings/2026-06-27.md), [06-28](briefings/2026-06-28.md), [07-01](briefings/2026-07-01.md), [07-03](briefings/2026-07-03.md), [07-08](briefings/2026-07-08.md), [07-09](briefings/2026-07-09.md), [07-10](briefings/2026-07-10.md), [07-11](briefings/2026-07-11.md)
 
@@ -58,13 +59,13 @@ _Sorted by frequency across all briefings (most-cited first). Each date links to
 
 - **bridge-dvn** (10 briefings) — [06-12](briefings/2026-06-12.md), [06-14](briefings/2026-06-14.md), [06-17](briefings/2026-06-17.md), [06-19](briefings/2026-06-19.md), [06-22](briefings/2026-06-22.md), [06-23](briefings/2026-06-23.md), [06-25](briefings/2026-06-25.md), [06-29](briefings/2026-06-29.md), [06-30](briefings/2026-06-30.md), [07-04](briefings/2026-07-04.md)
 
-- **flash-loan** (9 briefings) — [06-12](briefings/2026-06-12.md), [06-16](briefings/2026-06-16.md), [07-02](briefings/2026-07-02.md), [07-03](briefings/2026-07-03.md), [07-06](briefings/2026-07-06.md), [07-07](briefings/2026-07-07.md), [07-09](briefings/2026-07-09.md), [07-10](briefings/2026-07-10.md), [07-11](briefings/2026-07-11.md)
+- **flash-loan** (10 briefings) — [06-12](briefings/2026-06-12.md), [06-16](briefings/2026-06-16.md), [07-02](briefings/2026-07-02.md), [07-03](briefings/2026-07-03.md), [07-06](briefings/2026-07-06.md), [07-07](briefings/2026-07-07.md), [07-09](briefings/2026-07-09.md), [07-10](briefings/2026-07-10.md), [07-11](briefings/2026-07-11.md), [07-12](briefings/2026-07-12.md)
 
 - **unverified-contract** (6 briefings) — [06-12](briefings/2026-06-12.md), [06-20](briefings/2026-06-20.md), [06-21](briefings/2026-06-21.md), [06-24](briefings/2026-06-24.md), [07-02](briefings/2026-07-02.md), [07-04](briefings/2026-07-04.md)
 
-- **price-manipulation** (5 briefings) — [06-22](briefings/2026-06-22.md), [06-23](briefings/2026-06-23.md), [06-25](briefings/2026-06-25.md), [07-02](briefings/2026-07-02.md), [07-03](briefings/2026-07-03.md)
+- **price-manipulation** (6 briefings) — [06-22](briefings/2026-06-22.md), [06-23](briefings/2026-06-23.md), [06-25](briefings/2026-06-25.md), [07-02](briefings/2026-07-02.md), [07-03](briefings/2026-07-03.md), [07-12](briefings/2026-07-12.md)
 
-- **oracle-manipulation** (4 briefings) — [06-20](briefings/2026-06-20.md), [06-22](briefings/2026-06-22.md), [06-25](briefings/2026-06-25.md), [07-04](briefings/2026-07-04.md)
+- **oracle-manipulation** (5 briefings) — [06-20](briefings/2026-06-20.md), [06-22](briefings/2026-06-22.md), [06-25](briefings/2026-06-25.md), [07-04](briefings/2026-07-04.md), [07-12](briefings/2026-07-12.md)
 
 - **upgradeability** (4 briefings) — [06-13](briefings/2026-06-13.md), [06-18](briefings/2026-06-18.md), [06-20](briefings/2026-06-20.md), [07-03](briefings/2026-07-03.md)
 
@@ -86,10 +87,10 @@ _Sorted by frequency across all briefings (most-cited first). Each date links to
 
 | Metric | Value |
 |---|---|
-| **Total briefings** | 29 |
-| **Date range** | 2026-06-12 → 2026-07-11 (30 calendar days; one gap: 2026-06-26) |
-| **Top bug class** | `logic-error` — 22 of 29 briefings (76%) |
-| **#2 bug class** | `key-management` — 20 of 29 briefings (69%) |
-| **#3 bug class** | `access-control` — 14 of 29 briefings (48%) |
+| **Total briefings** | 30 |
+| **Date range** | 2026-06-12 → 2026-07-12 (31 calendar days; one gap: 2026-06-26) |
+| **Top bug class** | `logic-error` — 22 of 30 briefings (73%) |
+| **#2 bug class** | `key-management` — 21 of 30 briefings (70%) |
+| **#3 bug class** | `access-control` — 14 of 30 briefings (47%) |
 | **Biggest single incident covered** | Unnamed bridge $127M (2026-06-19) |
 | **Chains covered** | Ethereum, Arbitrum, Solana, BNB Chain, Cosmos, Aptos, Sui, Starknet, Cardano, Alephium, Tron, Syscoin, Polygon, Base, Optimism |
