@@ -2,7 +2,7 @@
 
 Automated daily security intelligence for blockchain / smart-contract bug bounty hunting. Generated every day at 11:00 JST.
 **Scope:** EVM/Solidity · Solana/Rust · Cosmos/Move · cross-chain bridges — DeFi-prioritized.
-**Latest briefing:** [2026-07-18](briefings/2026-07-18.md)
+**Latest briefing:** [2026-07-19](briefings/2026-07-19.md)
 
 ---
 
@@ -10,6 +10,7 @@ Automated daily security intelligence for blockchain / smart-contract bug bounty
 
 | Date | TL;DR | Incidents | Bug classes | $ at risk |
 |---|---|---|---|---|
+| [2026-07-19](briefings/2026-07-19.md) | SlowMist discloses macOS infostealer replacing Ledger/Trezor with fakes; PETS 2026 wallet-extension address-leak paper drops for 35M users | macOS wallet-replacement infostealer, PETS wallet-extension (35M users), Ill Bloom $5M+ sweeps | key-management, supply-chain, logic-error | ~$5M+ Ill Bloom active; $147M July MTD |
 | [2026-07-18](briefings/2026-07-18.md) | CoinDCX loses $44M to employee-malware key theft; Across Protocol Solana bridge relayer attacked | CoinDCX $44M, Across Protocol (TBD), DeFiTuna $580K, BigONE $27M | key-management, supply-chain, bridge-dvn, logic-error | ~$72M+ new |
 | [2026-07-17](briefings/2026-07-17.md) | Cascade (Polychain-backed) drained $1.34M on Arbitrum — third Arbitrum perp hack in one week | Cascade $1.34M | access-control, logic-error, oracle-manipulation, key-management, flash-loan | ~$1.34M new; ~$100M ongoing |
 | [2026-07-16](briefings/2026-07-16.md) | Ostium Perp DEX loses $18–22M to compromised oracle signer key on Arbitrum | Ostium $18–22M | key-management, oracle-manipulation, price-manipulation, access-control, upgradeability | ~$98M |
@@ -53,13 +54,13 @@ Automated daily security intelligence for blockchain / smart-contract bug bounty
 
 *(Sorted by number of briefings; each date links to that day's briefing)*
 
-- **logic-error** (26 briefings) — [07-18](briefings/2026-07-18.md), [07-17](briefings/2026-07-17.md), [07-14](briefings/2026-07-14.md), [07-13](briefings/2026-07-13.md), [07-11](briefings/2026-07-11.md), [07-10](briefings/2026-07-10.md), [07-09](briefings/2026-07-09.md), [07-08](briefings/2026-07-08.md), [07-07](briefings/2026-07-07.md), [07-05](briefings/2026-07-05.md), [07-04](briefings/2026-07-04.md), [06-30](briefings/2026-06-30.md), [06-29](briefings/2026-06-29.md), [06-28](briefings/2026-06-28.md), [06-27](briefings/2026-06-27.md), [06-25](briefings/2026-06-25.md), [06-24](briefings/2026-06-24.md), [06-22](briefings/2026-06-22.md), [06-21](briefings/2026-06-21.md), [06-20](briefings/2026-06-20.md), [06-19](briefings/2026-06-19.md), [06-17](briefings/2026-06-17.md), [06-16](briefings/2026-06-16.md), [06-15](briefings/2026-06-15.md), [06-14](briefings/2026-06-14.md), [06-12](briefings/2026-06-12.md)
+- **logic-error** (27 briefings) — [07-19](briefings/2026-07-19.md), [07-18](briefings/2026-07-18.md), [07-17](briefings/2026-07-17.md), [07-14](briefings/2026-07-14.md), [07-13](briefings/2026-07-13.md), [07-11](briefings/2026-07-11.md), [07-10](briefings/2026-07-10.md), [07-09](briefings/2026-07-09.md), [07-08](briefings/2026-07-08.md), [07-07](briefings/2026-07-07.md), [07-05](briefings/2026-07-05.md), [07-04](briefings/2026-07-04.md), [06-30](briefings/2026-06-30.md), [06-29](briefings/2026-06-29.md), [06-28](briefings/2026-06-28.md), [06-27](briefings/2026-06-27.md), [06-25](briefings/2026-06-25.md), [06-24](briefings/2026-06-24.md), [06-22](briefings/2026-06-22.md), [06-21](briefings/2026-06-21.md), [06-20](briefings/2026-06-20.md), [06-19](briefings/2026-06-19.md), [06-17](briefings/2026-06-17.md), [06-16](briefings/2026-06-16.md), [06-15](briefings/2026-06-15.md), [06-14](briefings/2026-06-14.md), [06-12](briefings/2026-06-12.md)
 
-- **key-management** (26 briefings) — [07-18](briefings/2026-07-18.md), [07-17](briefings/2026-07-17.md), [07-16](briefings/2026-07-16.md), [07-14](briefings/2026-07-14.md), [07-13](briefings/2026-07-13.md), [07-12](briefings/2026-07-12.md), [07-10](briefings/2026-07-10.md), [07-09](briefings/2026-07-09.md), [07-07](briefings/2026-07-07.md), [07-06](briefings/2026-07-06.md), [07-05](briefings/2026-07-05.md), [07-04](briefings/2026-07-04.md), [07-03](briefings/2026-07-03.md), [07-02](briefings/2026-07-02.md), [07-01](briefings/2026-07-01.md), [06-30](briefings/2026-06-30.md), [06-29](briefings/2026-06-29.md), [06-28](briefings/2026-06-28.md), [06-27](briefings/2026-06-27.md), [06-25](briefings/2026-06-25.md), [06-23](briefings/2026-06-23.md), [06-19](briefings/2026-06-19.md), [06-18](briefings/2026-06-18.md), [06-17](briefings/2026-06-17.md), [06-13](briefings/2026-06-13.md), [06-12](briefings/2026-06-12.md)
+- **key-management** (27 briefings) — [07-19](briefings/2026-07-19.md), [07-18](briefings/2026-07-18.md), [07-17](briefings/2026-07-17.md), [07-16](briefings/2026-07-16.md), [07-14](briefings/2026-07-14.md), [07-13](briefings/2026-07-13.md), [07-12](briefings/2026-07-12.md), [07-10](briefings/2026-07-10.md), [07-09](briefings/2026-07-09.md), [07-07](briefings/2026-07-07.md), [07-06](briefings/2026-07-06.md), [07-05](briefings/2026-07-05.md), [07-04](briefings/2026-07-04.md), [07-03](briefings/2026-07-03.md), [07-02](briefings/2026-07-02.md), [07-01](briefings/2026-07-01.md), [06-30](briefings/2026-06-30.md), [06-29](briefings/2026-06-29.md), [06-28](briefings/2026-06-28.md), [06-27](briefings/2026-06-27.md), [06-25](briefings/2026-06-25.md), [06-23](briefings/2026-06-23.md), [06-19](briefings/2026-06-19.md), [06-18](briefings/2026-06-18.md), [06-17](briefings/2026-06-17.md), [06-13](briefings/2026-06-13.md), [06-12](briefings/2026-06-12.md)
 
 - **access-control** (19 briefings) — [07-17](briefings/2026-07-17.md), [07-16](briefings/2026-07-16.md), [07-15](briefings/2026-07-15.md), [07-14](briefings/2026-07-14.md), [07-13](briefings/2026-07-13.md), [07-11](briefings/2026-07-11.md), [07-10](briefings/2026-07-10.md), [07-09](briefings/2026-07-09.md), [07-08](briefings/2026-07-08.md), [07-03](briefings/2026-07-03.md), [07-01](briefings/2026-07-01.md), [06-28](briefings/2026-06-28.md), [06-27](briefings/2026-06-27.md), [06-24](briefings/2026-06-24.md), [06-23](briefings/2026-06-23.md), [06-21](briefings/2026-06-21.md), [06-18](briefings/2026-06-18.md), [06-15](briefings/2026-06-15.md), [06-13](briefings/2026-06-13.md)
 
-- **supply-chain** (15 briefings) — [07-18](briefings/2026-07-18.md), [07-15](briefings/2026-07-15.md), [07-14](briefings/2026-07-14.md), [07-13](briefings/2026-07-13.md), [07-11](briefings/2026-07-11.md), [07-06](briefings/2026-07-06.md), [07-05](briefings/2026-07-05.md), [07-01](briefings/2026-07-01.md), [06-30](briefings/2026-06-30.md), [06-29](briefings/2026-06-29.md), [06-28](briefings/2026-06-28.md), [06-27](briefings/2026-06-27.md), [06-18](briefings/2026-06-18.md), [06-17](briefings/2026-06-17.md), [06-13](briefings/2026-06-13.md)
+- **supply-chain** (16 briefings) — [07-19](briefings/2026-07-19.md), [07-18](briefings/2026-07-18.md), [07-15](briefings/2026-07-15.md), [07-14](briefings/2026-07-14.md), [07-13](briefings/2026-07-13.md), [07-11](briefings/2026-07-11.md), [07-06](briefings/2026-07-06.md), [07-05](briefings/2026-07-05.md), [07-01](briefings/2026-07-01.md), [06-30](briefings/2026-06-30.md), [06-29](briefings/2026-06-29.md), [06-28](briefings/2026-06-28.md), [06-27](briefings/2026-06-27.md), [06-18](briefings/2026-06-18.md), [06-17](briefings/2026-06-17.md), [06-13](briefings/2026-06-13.md)
 
 - **flash-loan** (12 briefings) — [07-17](briefings/2026-07-17.md), [07-14](briefings/2026-07-14.md), [07-12](briefings/2026-07-12.md), [07-11](briefings/2026-07-11.md), [07-10](briefings/2026-07-10.md), [07-09](briefings/2026-07-09.md), [07-07](briefings/2026-07-07.md), [07-06](briefings/2026-07-06.md), [07-03](briefings/2026-07-03.md), [07-02](briefings/2026-07-02.md), [06-16](briefings/2026-06-16.md), [06-12](briefings/2026-06-12.md)
 
@@ -89,11 +90,11 @@ Automated daily security intelligence for blockchain / smart-contract bug bounty
 
 ## 📊 Stats
 
-- **Total briefings:** 36
-- **Date range:** 2026-06-12 → 2026-07-18 (37 days; one gap on Jun 26)
+- **Total briefings:** 37
+- **Date range:** 2026-06-12 → 2026-07-19 (38 days; one gap on Jun 26)
 - **Top 3 most-frequent bug classes:**
-  1. **logic-error** — 26 briefings (72% of days covered)
-  2. **key-management** — 26 briefings (72% of days covered)
-  3. **access-control** — 19 briefings (53% of days covered)
-- **Total tracked losses (approximate):** $1B+ across full window; July 2026 alone ~$142M (PeckShield estimate)
+  1. **logic-error** — 27 briefings (71% of days covered)
+  2. **key-management** — 27 briefings (71% of days covered)
+  3. **access-control** — 19 briefings (50% of days covered)
+- **Total tracked losses (approximate):** $1B+ across full window; July 2026 MTD ~$147M (SlowMist)
 - **Most-targeted chains:** Ethereum, Solana, Arbitrum, BNB Chain, cross-chain bridges
