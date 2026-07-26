@@ -2,7 +2,7 @@
 
 Automated daily security intelligence for blockchain / smart-contract bug bounty hunting. Generated every day at 11:00 JST.
 **Scope:** EVM/Solidity · Solana/Rust · Cosmos/Move · cross-chain bridges — DeFi-prioritized.
-**Latest briefing:** [2026-07-25](briefings/2026-07-25.md)
+**Latest briefing:** [2026-07-26](briefings/2026-07-26.md)
 
 ---
 
@@ -10,6 +10,7 @@ Automated daily security intelligence for blockchain / smart-contract bug bounty
 
 | Date | TL;DR | Incidents | Bug classes | $ at risk |
 |---|---|---|---|---|
+| [2026-07-26](briefings/2026-07-26.md) | Triple-A payment gateway loses $9.7M as hot wallets across 6 chains drained simultaneously; Chainalysis publishes Drift $285M durable-nonce governance post-mortem | Triple-A $9.7M | key-management, access-control | ~$9.7M new; ~$206M July MTD |
 | [2026-07-25](briefings/2026-07-25.md) | Lien Finance drained $542K via permissionless bond registration and flawed exchange count-check; Injective npm advisory still active | Lien Finance $542K | logic-error, price-manipulation, supply-chain | ~$542K new; ~$196M July MTD |
 | [2026-07-24](briefings/2026-07-24.md) | AFX Trade Arbitrum bridge drained $24.15M after validator signing keys compromised; three simultaneous bridge exploits total $35.55M | AFX Trade $24.15M, Verus ETH Bridge ~$7.4M, B² Network ~$4M | key-management, bridge-dvn | ~$35.55M new; ~$195M July MTD |
 | [2026-07-23](briefings/2026-07-23.md) | 42DAO BLC stablecoin depegged 99% on BNB Chain after BTCB Median Oracle manipulation minted unbacked tokens | 42DAO BLC $915K | oracle-manipulation, price-manipulation, key-management, bridge-dvn | ~$915K new; ~$159M July MTD |
@@ -60,11 +61,11 @@ Automated daily security intelligence for blockchain / smart-contract bug bounty
 
 Sorted by number of briefings containing each tag (most frequent first). Click a date to jump to that day's analysis.
 
+**key-management** (31 briefings) — [2026-06-12](briefings/2026-06-12.md), [2026-06-13](briefings/2026-06-13.md), [2026-06-17](briefings/2026-06-17.md), [2026-06-18](briefings/2026-06-18.md), [2026-06-19](briefings/2026-06-19.md), [2026-06-23](briefings/2026-06-23.md), [2026-06-25](briefings/2026-06-25.md), [2026-06-27](briefings/2026-06-27.md), [2026-06-28](briefings/2026-06-28.md), [2026-06-29](briefings/2026-06-29.md), [2026-06-30](briefings/2026-06-30.md), [2026-07-01](briefings/2026-07-01.md), [2026-07-02](briefings/2026-07-02.md), [2026-07-03](briefings/2026-07-03.md), [2026-07-04](briefings/2026-07-04.md), [2026-07-05](briefings/2026-07-05.md), [2026-07-06](briefings/2026-07-06.md), [2026-07-07](briefings/2026-07-07.md), [2026-07-09](briefings/2026-07-09.md), [2026-07-10](briefings/2026-07-10.md), [2026-07-12](briefings/2026-07-12.md), [2026-07-13](briefings/2026-07-13.md), [2026-07-16](briefings/2026-07-16.md), [2026-07-17](briefings/2026-07-17.md), [2026-07-18](briefings/2026-07-18.md), [2026-07-19](briefings/2026-07-19.md), [2026-07-20](briefings/2026-07-20.md), [2026-07-22](briefings/2026-07-22.md), [2026-07-23](briefings/2026-07-23.md), [2026-07-24](briefings/2026-07-24.md), [2026-07-26](briefings/2026-07-26.md)
+
 **logic-error** (30 briefings) — [2026-06-12](briefings/2026-06-12.md), [2026-06-14](briefings/2026-06-14.md), [2026-06-15](briefings/2026-06-15.md), [2026-06-16](briefings/2026-06-16.md), [2026-06-17](briefings/2026-06-17.md), [2026-06-19](briefings/2026-06-19.md), [2026-06-20](briefings/2026-06-20.md), [2026-06-21](briefings/2026-06-21.md), [2026-06-22](briefings/2026-06-22.md), [2026-06-24](briefings/2026-06-24.md), [2026-06-25](briefings/2026-06-25.md), [2026-06-27](briefings/2026-06-27.md), [2026-06-28](briefings/2026-06-28.md), [2026-06-29](briefings/2026-06-29.md), [2026-06-30](briefings/2026-06-30.md), [2026-07-04](briefings/2026-07-04.md), [2026-07-05](briefings/2026-07-05.md), [2026-07-07](briefings/2026-07-07.md), [2026-07-08](briefings/2026-07-08.md), [2026-07-09](briefings/2026-07-09.md), [2026-07-10](briefings/2026-07-10.md), [2026-07-11](briefings/2026-07-11.md), [2026-07-13](briefings/2026-07-13.md), [2026-07-14](briefings/2026-07-14.md), [2026-07-17](briefings/2026-07-17.md), [2026-07-18](briefings/2026-07-18.md), [2026-07-19](briefings/2026-07-19.md), [2026-07-20](briefings/2026-07-20.md), [2026-07-21](briefings/2026-07-21.md), [2026-07-25](briefings/2026-07-25.md)
 
-**key-management** (30 briefings) — [2026-06-12](briefings/2026-06-12.md), [2026-06-13](briefings/2026-06-13.md), [2026-06-17](briefings/2026-06-17.md), [2026-06-18](briefings/2026-06-18.md), [2026-06-19](briefings/2026-06-19.md), [2026-06-23](briefings/2026-06-23.md), [2026-06-25](briefings/2026-06-25.md), [2026-06-27](briefings/2026-06-27.md), [2026-06-28](briefings/2026-06-28.md), [2026-06-29](briefings/2026-06-29.md), [2026-06-30](briefings/2026-06-30.md), [2026-07-01](briefings/2026-07-01.md), [2026-07-02](briefings/2026-07-02.md), [2026-07-03](briefings/2026-07-03.md), [2026-07-04](briefings/2026-07-04.md), [2026-07-05](briefings/2026-07-05.md), [2026-07-06](briefings/2026-07-06.md), [2026-07-07](briefings/2026-07-07.md), [2026-07-09](briefings/2026-07-09.md), [2026-07-10](briefings/2026-07-10.md), [2026-07-12](briefings/2026-07-12.md), [2026-07-13](briefings/2026-07-13.md), [2026-07-16](briefings/2026-07-16.md), [2026-07-17](briefings/2026-07-17.md), [2026-07-18](briefings/2026-07-18.md), [2026-07-19](briefings/2026-07-19.md), [2026-07-20](briefings/2026-07-20.md), [2026-07-22](briefings/2026-07-22.md), [2026-07-23](briefings/2026-07-23.md), [2026-07-24](briefings/2026-07-24.md)
-
-**access-control** (19 briefings) — [2026-06-13](briefings/2026-06-13.md), [2026-06-15](briefings/2026-06-15.md), [2026-06-18](briefings/2026-06-18.md), [2026-06-21](briefings/2026-06-21.md), [2026-06-23](briefings/2026-06-23.md), [2026-06-24](briefings/2026-06-24.md), [2026-06-27](briefings/2026-06-27.md), [2026-06-28](briefings/2026-06-28.md), [2026-07-01](briefings/2026-07-01.md), [2026-07-03](briefings/2026-07-03.md), [2026-07-08](briefings/2026-07-08.md), [2026-07-09](briefings/2026-07-09.md), [2026-07-10](briefings/2026-07-10.md), [2026-07-11](briefings/2026-07-11.md), [2026-07-13](briefings/2026-07-13.md), [2026-07-14](briefings/2026-07-14.md), [2026-07-15](briefings/2026-07-15.md), [2026-07-16](briefings/2026-07-16.md), [2026-07-17](briefings/2026-07-17.md)
+**access-control** (20 briefings) — [2026-06-13](briefings/2026-06-13.md), [2026-06-15](briefings/2026-06-15.md), [2026-06-18](briefings/2026-06-18.md), [2026-06-21](briefings/2026-06-21.md), [2026-06-23](briefings/2026-06-23.md), [2026-06-24](briefings/2026-06-24.md), [2026-06-27](briefings/2026-06-27.md), [2026-06-28](briefings/2026-06-28.md), [2026-07-01](briefings/2026-07-01.md), [2026-07-03](briefings/2026-07-03.md), [2026-07-08](briefings/2026-07-08.md), [2026-07-09](briefings/2026-07-09.md), [2026-07-10](briefings/2026-07-10.md), [2026-07-11](briefings/2026-07-11.md), [2026-07-13](briefings/2026-07-13.md), [2026-07-14](briefings/2026-07-14.md), [2026-07-15](briefings/2026-07-15.md), [2026-07-16](briefings/2026-07-16.md), [2026-07-17](briefings/2026-07-17.md), [2026-07-26](briefings/2026-07-26.md)
 
 **supply-chain** (18 briefings) — [2026-06-13](briefings/2026-06-13.md), [2026-06-17](briefings/2026-06-17.md), [2026-06-18](briefings/2026-06-18.md), [2026-06-27](briefings/2026-06-27.md), [2026-06-28](briefings/2026-06-28.md), [2026-06-29](briefings/2026-06-29.md), [2026-06-30](briefings/2026-06-30.md), [2026-07-01](briefings/2026-07-01.md), [2026-07-05](briefings/2026-07-05.md), [2026-07-06](briefings/2026-07-06.md), [2026-07-11](briefings/2026-07-11.md), [2026-07-13](briefings/2026-07-13.md), [2026-07-14](briefings/2026-07-14.md), [2026-07-15](briefings/2026-07-15.md), [2026-07-18](briefings/2026-07-18.md), [2026-07-19](briefings/2026-07-19.md), [2026-07-20](briefings/2026-07-20.md), [2026-07-25](briefings/2026-07-25.md)
 
@@ -97,11 +98,11 @@ Sorted by number of briefings containing each tag (most frequent first). Click a
 ## 📊 Stats
 
 - **Total briefings:** 44
-- **Date range:** 2026-06-12 → 2026-07-25 (44 days; one gap on 2026-06-26)
+- **Date range:** 2026-06-12 → 2026-07-26 (45 calendar days covered; one gap on 2026-06-26)
 - **Top 3 most-frequent bug classes:**
-  1. `logic-error` — 30 briefings (68%)
-  2. `key-management` — 30 briefings (68%)
-  3. `access-control` — 19 briefings (43%)
-- **Emerging trend:** `supply-chain` appears in 18 briefings (41%), accelerating through July — npm worms, macOS infostealers, and OIDC pipeline compromise all contributing.
-- **July 2026 MTD losses:** ~$196M across tracked incidents as of 2026-07-25.
-- **Largest single-day cluster tracked:** 2026-07-24 — three simultaneous bridge exploits totaling $35.55M in under 7 hours (AFX Trade $24.15M, Verus ETH Bridge $7.54M, B² Network $3.86M).
+  1. `key-management` — 31 briefings (70%) — now #1 overtaking logic-error
+  2. `logic-error` — 30 briefings (68%)
+  3. `access-control` — 20 briefings (45%)
+- **Emerging trend:** `key-management` now leads all bug classes — spanning hot-wallet drains (Triple-A $9.7M, CoinDCX $44M), validator key compromise (AFX Trade $24.15M, Gravity Bridge), oracle signer key theft (Ostium $18–24M), and supply-chain key exfiltration (Injective Labs npm). The #1 2026 threat is operational key management, not smart-contract code.
+- **July 2026 MTD losses:** ~$206M across tracked incidents as of 2026-07-26.
+- **Largest single-day cluster tracked:** 2026-07-24 — three simultaneous bridge/protocol exploits totaling $35.55M in under 7 hours (AFX Trade $24.15M, Verus ETH Bridge $7.54M, B² Network $3.86M).
