@@ -2,7 +2,7 @@
 
 Automated daily security intelligence for blockchain / smart-contract bug bounty hunting. Generated every day at 11:00 JST.
 **Scope:** EVM/Solidity · Solana/Rust · Cosmos/Move · cross-chain bridges — DeFi-prioritized.
-**Latest briefing:** [2026-09-21](briefings/2026-09-21.md)
+**Latest briefing:** [2026-09-22](briefings/2026-09-22.md)
 
 ## 📅 Index (newest first)
 
@@ -10,6 +10,7 @@ Automated daily security intelligence for blockchain / smart-contract bug bounty
 
 | Date | TL;DR | Incidents | Bug classes | $ at risk |
 |---|---|---|---|---|
+| [2026-09-22](briefings/2026-09-22.md) | A quiet day for headline drains — the only fresh items are two small token-le… | Internet Token LiquidityUnifier exploit ($265K, Base), RWC Token burn-functio… | access-control, price-manipulation, key-management, logic-error, client-imple… | ~$265K Internet Token (Base); ~$109.5K RWC Token (BNB Chain); Fetch.ai/NuNet/… |
 | [2026-09-21](briefings/2026-09-21.md) | No fresh incident was first observed on Sept 21. The material development is… | Fetch.ai + NuNet + SingularityNET (AGIX/WMTx) stolen bridge signing key, ~$16… | key-management, access-control, price-manipulation, logic-error, client-imple… | nothing fresh on Sept 21; the Fetch.ai/NuNet/SingularityNET cluster's attacke… |
 | [2026-09-20](briefings/2026-09-20.md) | Nothing new was first observed on Sept 20 — the day's material is disclosure.… | Fetch.ai + NuNet ~$2.01M signing-key theft (Day 2), MultiversX mainnet halt (… | key-management, access-control, price-manipulation, logic-error, client-imple… | nothing fresh on Sept 20; carried forward: ~$2.01M Fetch.ai + NuNet (Sept 19)… |
 | [2026-09-19](briefings/2026-09-19.md) | Three fresh incidents on Sept 19 — MultiversX halted mainnet after an attacke… | MultiversX mainnet halt (VM atomicity, loss unconfirmed), Blink Wallet custod… | logic-error, key-management, access-control, oracle-manipulation, share-price… | MultiversX loss UNCONFIRMED (whole-chain state at risk); Fetch.ai/NuNet ~$2.0… |
