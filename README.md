@@ -2,7 +2,7 @@
 
 Automated daily security intelligence for blockchain / smart-contract bug bounty hunting. Generated every day at 11:00 JST.
 **Scope:** EVM/Solidity · Solana/Rust · Cosmos/Move · cross-chain bridges — DeFi-prioritized.
-**Latest briefing:** [2026-09-23](briefings/2026-09-23.md)
+**Latest briefing:** [2026-09-24](briefings/2026-09-24.md)
 
 ## 📅 Index (newest first)
 
@@ -10,6 +10,7 @@ Automated daily security intelligence for blockchain / smart-contract bug bounty
 
 | Date | TL;DR | Incidents | Bug classes | $ at risk |
 |---|---|---|---|---|
+| [2026-09-24](briefings/2026-09-24.md) | A structural governance flaw on Neutron (Cosmos) is today's headline: an atta… | Neutron governance takeover — Astroport + Drop (~$9.4M, Cosmos/Neutron), Fomo… | governance/access-control, key-management, client-implementation, price-manip… | ~$9.4M Neutron/Astroport/Drop (~$1.96M already bridged off, ~$2.1M in ATOM cl… |
 | [2026-09-23](briefings/2026-09-23.md) | Another quiet day for headline drains. Two small, previously-uncaptured Polyg… | GaslessReservoirEnabler exploit (~$23K, Polygon), DoinGud bid-replay exploit… | access-control, price-manipulation, key-management, logic-error, client-imple… | ~$23K GaslessReservoirEnabler (Polygon); ~$35.5K DoinGud (Polygon); Fetch.ai/… |
 | [2026-09-22](briefings/2026-09-22.md) | A quiet day for headline drains — the only fresh items are two small token-le… | Internet Token LiquidityUnifier exploit ($265K, Base), RWC Token burn-functio… | access-control, price-manipulation, key-management, logic-error, client-imple… | ~$265K Internet Token (Base); ~$109.5K RWC Token (BNB Chain); Fetch.ai/NuNet/… |
 | [2026-09-21](briefings/2026-09-21.md) | No fresh incident was first observed on Sept 21. The material development is… | Fetch.ai + NuNet + SingularityNET (AGIX/WMTx) stolen bridge signing key, ~$16… | key-management, access-control, price-manipulation, logic-error, client-imple… | nothing fresh on Sept 21; the Fetch.ai/NuNet/SingularityNET cluster's attacke… |
