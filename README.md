@@ -2,7 +2,7 @@
 
 Automated daily security intelligence for blockchain / smart-contract bug bounty hunting. Generated every day at 11:00 JST.
 **Scope:** EVM/Solidity · Solana/Rust · Cosmos/Move · cross-chain bridges — DeFi-prioritized.
-**Latest briefing:** [2026-09-25](briefings/2026-09-25.md)
+**Latest briefing:** [2026-09-26](briefings/2026-09-26.md)
 
 ## 📅 Index (newest first)
 
@@ -10,6 +10,7 @@ Automated daily security intelligence for blockchain / smart-contract bug bounty
 
 | Date | TL;DR | Incidents | Bug classes | $ at risk |
 |---|---|---|---|---|
+| [2026-09-26](briefings/2026-09-26.md) | Bitget revised its hack loss upward to ~$387.5M (from $351.6M, adding Zcash/T… | Bitget exchange backend/authorization spoofing (~$387.5M, revised, CEX key in… | access-control (backend authorization spoofing), key-management, bridge-verif… | ~$387.5M Bitget (company-revised; XRP leg ~$157.5M partially corroborated by… |
 | [2026-09-25](briefings/2026-09-25.md) | Bitget confirmed roughly $351.6M in unauthorized transfers from its hot and w… | Bitget exchange hot/warm-wallet breach (~$351.6M, disputed figure, CEX key in… | key-management, access-control, governance/access-control, price-manipulation… | ~$351.6M Bitget (company-reported; on-chain trackers had confirmed only ~$183… |
 | [2026-09-24](briefings/2026-09-24.md) | A structural governance flaw on Neutron (Cosmos) is today's headline: an atta… | Neutron governance takeover — Astroport + Drop (~$9.4M, Cosmos/Neutron), Fomo… | governance/access-control, key-management, client-implementation, price-manip… | ~$9.4M Neutron/Astroport/Drop (~$1.96M already bridged off, ~$2.1M in ATOM cl… |
 | [2026-09-23](briefings/2026-09-23.md) | Another quiet day for headline drains. Two small, previously-uncaptured Polyg… | GaslessReservoirEnabler exploit (~$23K, Polygon), DoinGud bid-replay exploit… | access-control, price-manipulation, key-management, logic-error, client-imple… | ~$23K GaslessReservoirEnabler (Polygon); ~$35.5K DoinGud (Polygon); Fetch.ai/… |
