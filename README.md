@@ -2,7 +2,7 @@
 
 Automated daily security intelligence for blockchain / smart-contract bug bounty hunting. Generated every day at 11:00 JST.
 **Scope:** EVM/Solidity · Solana/Rust · Cosmos/Move · cross-chain bridges — DeFi-prioritized.
-**Latest briefing:** [2026-10-03](briefings/2026-10-03.md)
+**Latest briefing:** [2026-10-04](briefings/2026-10-04.md)
 
 ## 📅 Index (newest first)
 
@@ -10,6 +10,7 @@ Automated daily security intelligence for blockchain / smart-contract bug bounty
 
 | Date | TL;DR | Incidents | Bug classes | $ at risk |
 |---|---|---|---|---|
+| [2026-10-04](briefings/2026-10-04.md) | Two new, small confirmed exploits this window — MALT Stablecoin lost ~$72K on… | NEW — MALT Stablecoin swap/rebalance-hook accounting bug (~$72K, Polygon, Oct… | logic-error / invariant-validation (treasury-funded liquidity miscounted as u… | ~$72K MALT; ~$114K GoldPesa GPXHooks (alleged, unconfirmed by team); ~0.36 ET… |
 | [2026-10-03](briefings/2026-10-03.md) | Two new incidents this window, both small and fast-resolving relative to Sept… | NEW — NEAR Intents Omni bridge logic flaw (~$3.8M, resolved/returned, Oct 1-2… | access-control (third-party adapter/module privilege bypass via forged Safe c… | ~$3.8M NEAR Intents (fully returned, net loss $0); ~$305K / 114.09 ETH Aave F… |
 | [2026-10-01](briefings/2026-10-01.md) | Quiet 24h window — no new incident clears the bar for this briefing. The main… | none newly disclosed in this window; ongoing — Bitget exchange backend/author… | no new bug class this window; standing set — social-engineering / chain-imper… | no new figures this window; standing totals unchanged from Sept 30 — ~$2M DYO… |
 | [2026-09-30](briefings/2026-09-30.md) | Two new incidents clear the bar for this window — a fake "GIWA mainnet" bridg… | DYORSWAP fake-GIWA-bridge impersonation (~$2M ETH, Ethereum, new), Zano Gatew… | social-engineering / chain-impersonation (fake L2 bridge, chain-ID spoofing),… | ~$2M DYORSWAP (confirmed, 766 ETH); Zano amount undisclosed ("considerable" p… |
