@@ -2,7 +2,7 @@
 
 Automated daily security intelligence for blockchain / smart-contract bug bounty hunting. Generated every day at 11:00 JST.
 **Scope:** EVM/Solidity · Solana/Rust · Cosmos/Move · cross-chain bridges — DeFi-prioritized.
-**Latest briefing:** [2026-10-08](briefings/2026-10-08.md)
+**Latest briefing:** [2026-10-09](briefings/2026-10-09.md)
 
 ## 📅 Index (newest first)
 
@@ -10,6 +10,7 @@ Automated daily security intelligence for blockchain / smart-contract bug bounty
 
 | Date | TL;DR | Incidents | Bug classes | $ at risk |
 |---|---|---|---|---|
+| [2026-10-09](briefings/2026-10-09.md) | No incident with first public disclosure in the literal Oct 7-9 UTC window wa… | NEW (missed from Oct 6, added this edition) — MakerDAO ETH-A liquidation keep… | access-control (missing auth check on dormant third-party keeper exit functio… | ~$538K MakerDAO keeper (unrecovered); ~$21.9K Set Protocol (unrecovered); ~$6… |
 | [2026-10-08](briefings/2026-10-08.md) | Quiet day again — no new smart-contract or exchange exploit was independently… | Base vault (protocol unidentified) Safe-whitelist re-toggle exploit (~$6M wst… | access-control (Safe multisig whitelist/signature-authorization bypass, mecha… | ~$6M stolen + ~$31.7M still at risk, Base vault (protocol unidentified); ~$38… |
 | [2026-10-06](briefings/2026-10-06.md) | Quiet day — no new smart-contract or exchange exploit was independently corro… | Base vault (protocol unidentified) Safe-whitelist re-toggle exploit (~$6M wst… | access-control (Safe multisig whitelist/signature-authorization bypass, mecha… | ~$6M stolen + ~$31.7M still at risk, Base vault (protocol unidentified); ~$38… |
 | [2026-10-05](briefings/2026-10-05.md) | One new incident this window — an unidentified vault on Base was drained of ~… | NEW — Base vault (protocol unidentified) Safe-whitelist re-toggle exploit (~$… | access-control (Safe multisig whitelist/signature-authorization bypass, mecha… | ~$6M stolen + ~$31.7M still at risk, Base vault (protocol unidentified); ~$38… |
