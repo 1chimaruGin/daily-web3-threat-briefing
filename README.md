@@ -2,7 +2,7 @@
 
 Automated daily security intelligence for blockchain / smart-contract bug bounty hunting. Generated every day at 11:00 JST.
 **Scope:** EVM/Solidity · Solana/Rust · Cosmos/Move · cross-chain bridges — DeFi-prioritized.
-**Latest briefing:** [2026-10-12](briefings/2026-10-12.md)
+**Latest briefing:** [2026-10-13](briefings/2026-10-13.md)
 
 ## 📅 Index (newest first)
 
@@ -10,6 +10,7 @@ Automated daily security intelligence for blockchain / smart-contract bug bounty
 
 | Date | TL;DR | Incidents | Bug classes | $ at risk |
 |---|---|---|---|---|
+| [2026-10-13](briefings/2026-10-13.md) | No new protocol-level DeFi smart-contract exploit was confirmed in the last 2… | UPDATED — Ledger-Linked Hardware Wallets / CryptoBilis (unverified researcher… | key-management / supply-chain (Ledger-linked reseller hardware implant now al… | ~$86M-$93.4M disputed Ledger-linked drains (steady tally ~$93.2M, ~$10M froze… |
 | [2026-10-12](briefings/2026-10-12.md) | No new protocol-level DeFi smart-contract exploit was confirmed in the last 2… | UPDATED — Ledger hardware-wallet supply-chain drain via reseller CryptoBilis… | key-management / supply-chain (Ledger-linked reseller hardware implant; now a… | ~$86M-$93.4M disputed Ledger-linked drains (steady tally ~$93.2M, ~$10M froze… |
 | [2026-10-11](briefings/2026-10-11.md) | The lead story is still the Ledger-linked hardware-wallet drain first disclos… | UPDATED — Ledger hardware-wallet supply-chain drain via reseller CryptoBilis… | key-management / supply-chain (Ledger-linked reseller hardware implant, now p… | ~$86M-$93.4M disputed Ledger-linked drains (most recent tally ~$93.2M, ~$10M… |
 | [2026-10-10](briefings/2026-10-10.md) | The lead story is a Ledger hardware-wallet incident disclosed Oct 9: on-chain… | NEW — Ledger hardware-wallet supply-chain drain via reseller CryptoBilis (~$8… | key-management / supply-chain (Ledger-linked reseller device tampering, vecto… | ~$86M+ (disputed, up to ~$93.4M) Ledger-linked drains, mostly unrecovered; ~$… |
