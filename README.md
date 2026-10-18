@@ -2,7 +2,7 @@
 
 Automated daily security intelligence for blockchain / smart-contract bug bounty hunting. Generated every day at 11:00 JST.
 **Scope:** EVM/Solidity · Solana/Rust · Cosmos/Move · cross-chain bridges — DeFi-prioritized.
-**Latest briefing:** [2026-10-13](briefings/2026-10-13.md)
+**Latest briefing:** [2026-10-18](briefings/2026-10-18.md)
 
 ## 📅 Index (newest first)
 
@@ -10,6 +10,7 @@ Automated daily security intelligence for blockchain / smart-contract bug bounty
 
 | Date | TL;DR | Incidents | Bug classes | $ at risk |
 |---|---|---|---|---|
+| [2026-10-18](briefings/2026-10-18.md) | No single mega-incident dominates this window, but five developing stories mo… | NEW — Pirate Chain (ARRR) Ironwood-turnstile validation bug mints 39.8M ARRR… | logic-error / minting-limit-bypass (Pirate Chain Ironwood turnstile — bypasse… | Pirate Chain: no confirmed USD figure (39.8M ARRR minted, theoretically ~$10M… |
 | [2026-10-13](briefings/2026-10-13.md) | No new protocol-level DeFi smart-contract exploit was confirmed in the last 2… | UPDATED — Ledger-Linked Hardware Wallets / CryptoBilis (unverified researcher… | key-management / supply-chain (Ledger-linked reseller hardware implant now al… | ~$86M-$93.4M disputed Ledger-linked drains (steady tally ~$93.2M, ~$10M froze… |
 | [2026-10-12](briefings/2026-10-12.md) | No new protocol-level DeFi smart-contract exploit was confirmed in the last 2… | UPDATED — Ledger hardware-wallet supply-chain drain via reseller CryptoBilis… | key-management / supply-chain (Ledger-linked reseller hardware implant; now a… | ~$86M-$93.4M disputed Ledger-linked drains (steady tally ~$93.2M, ~$10M froze… |
 | [2026-10-11](briefings/2026-10-11.md) | The lead story is still the Ledger-linked hardware-wallet drain first disclos… | UPDATED — Ledger hardware-wallet supply-chain drain via reseller CryptoBilis… | key-management / supply-chain (Ledger-linked reseller hardware implant, now p… | ~$86M-$93.4M disputed Ledger-linked drains (most recent tally ~$93.2M, ~$10M… |
@@ -113,6 +114,7 @@ Automated daily security intelligence for blockchain / smart-contract bug bounty
 > **Gap:** no briefings for 2026-08-22 – 2026-09-13 (23 days) — automation was not running.
 > **Gap:** no briefings for 2026-10-02 – 2026-10-02 (1 day) — automation was not running.
 > **Gap:** no briefings for 2026-10-07 – 2026-10-07 (1 day) — automation was not running.
+> **Gap:** no briefings for 2026-10-14 – 2026-10-17 (4 days) — automation was not running.
 
 <!-- INDEX:END -->
 
