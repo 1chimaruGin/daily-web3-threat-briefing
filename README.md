@@ -2,7 +2,7 @@
 
 Automated daily security intelligence for blockchain / smart-contract bug bounty hunting. Generated every day at 11:00 JST.
 **Scope:** EVM/Solidity · Solana/Rust · Cosmos/Move · cross-chain bridges — DeFi-prioritized.
-**Latest briefing:** [2026-10-18](briefings/2026-10-18.md)
+**Latest briefing:** [2026-10-19](briefings/2026-10-19.md)
 
 ## 📅 Index (newest first)
 
@@ -10,6 +10,7 @@ Automated daily security intelligence for blockchain / smart-contract bug bounty
 
 | Date | TL;DR | Incidents | Bug classes | $ at risk |
 |---|---|---|---|---|
+| [2026-10-19](briefings/2026-10-19.md) | Two new, smaller incidents this window rather than one mega-hack. Qubic halte… | NEW — Qubic mainnet wallet drain (~2.94 trillion QU / ~$1.3M, 1,404 wallets,… | key-management / weak-entropy-seed-generation (Qubic — client-side wallet-see… | Qubic: ~$1.3M (87.1% frozen on-chain, 12.9% frozen at MEXC, unrecovered pendi… |
 | [2026-10-18](briefings/2026-10-18.md) | No single mega-incident dominates this window, but five developing stories mo… | NEW — Pirate Chain (ARRR) Ironwood-turnstile validation bug mints 39.8M ARRR… | logic-error / minting-limit-bypass (Pirate Chain Ironwood turnstile — bypasse… | Pirate Chain: no confirmed USD figure (39.8M ARRR minted, theoretically ~$10M… |
 | [2026-10-13](briefings/2026-10-13.md) | No new protocol-level DeFi smart-contract exploit was confirmed in the last 2… | UPDATED — Ledger-Linked Hardware Wallets / CryptoBilis (unverified researcher… | key-management / supply-chain (Ledger-linked reseller hardware implant now al… | ~$86M-$93.4M disputed Ledger-linked drains (steady tally ~$93.2M, ~$10M froze… |
 | [2026-10-12](briefings/2026-10-12.md) | No new protocol-level DeFi smart-contract exploit was confirmed in the last 2… | UPDATED — Ledger hardware-wallet supply-chain drain via reseller CryptoBilis… | key-management / supply-chain (Ledger-linked reseller hardware implant; now a… | ~$86M-$93.4M disputed Ledger-linked drains (steady tally ~$93.2M, ~$10M froze… |
