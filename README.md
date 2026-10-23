@@ -2,7 +2,7 @@
 
 Automated daily security intelligence for blockchain / smart-contract bug bounty hunting. Generated every day at 11:00 JST.
 **Scope:** EVM/Solidity · Solana/Rust · Cosmos/Move · cross-chain bridges — DeFi-prioritized.
-**Latest briefing:** [2026-10-22](briefings/2026-10-22.md)
+**Latest briefing:** [2026-10-23](briefings/2026-10-23.md)
 
 ## 📅 Index (newest first)
 
@@ -10,6 +10,7 @@ Automated daily security intelligence for blockchain / smart-contract bug bounty
 
 | Date | TL;DR | Incidents | Bug classes | $ at risk |
 |---|---|---|---|---|
+| [2026-10-23](briefings/2026-10-23.md) | Three new items this window, none fully resolved. The WAX multichain bridge l… | NEW — WAX multichain bridge cross-chain payment/release desync (~$75,000 acro… | bridge-verification-logic / cross-chain-accounting-desync (WAX — withdrawal r… | WAX bridge: ~$75,000 (scope unconfirmed, may still be expanding); Railway-lin… |
 | [2026-10-22](briefings/2026-10-22.md) | One new wallet-security incident this window — NGRAVE's LIQUID companion app… | NEW — NGRAVE LIQUID phishing attack (~$2.56M across ~70 wallet addresses, 4 c… | social-engineering / third-party-vendor-impersonation (NGRAVE — compromised p… | NGRAVE: ~$2.56M across ~70 wallets (BTC ~$1.77M, XRP ~$454K, ETH ~$316K, XLM… |
 | [2026-10-20](briefings/2026-10-20.md) | Quiet 24-48h window — no new confirmed active exploits found. Qubic's wallet-… | NO NEW CONFIRMED INCIDENTS this window. UPDATED — Qubic mainnet wallet-seed d… | key-management / weak-entropy-seed-generation (Qubic, standing; Coldcard's ea… | Qubic: ~$1.3M (87.1% frozen on-chain, 12.9% frozen at MEXC, unrecovered, comp… |
 | [2026-10-19](briefings/2026-10-19.md) | Two new, smaller incidents this window rather than one mega-hack. Qubic halte… | NEW — Qubic mainnet wallet drain (~2.94 trillion QU / ~$1.3M, 1,404 wallets,… | key-management / weak-entropy-seed-generation (Qubic — client-side wallet-see… | Qubic: ~$1.3M (87.1% frozen on-chain, 12.9% frozen at MEXC, unrecovered pendi… |
