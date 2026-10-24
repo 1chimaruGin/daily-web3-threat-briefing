@@ -2,7 +2,7 @@
 
 Automated daily security intelligence for blockchain / smart-contract bug bounty hunting. Generated every day at 11:00 JST.
 **Scope:** EVM/Solidity · Solana/Rust · Cosmos/Move · cross-chain bridges — DeFi-prioritized.
-**Latest briefing:** [2026-10-23](briefings/2026-10-23.md)
+**Latest briefing:** [2026-10-24](briefings/2026-10-24.md)
 
 ## 📅 Index (newest first)
 
@@ -10,6 +10,7 @@ Automated daily security intelligence for blockchain / smart-contract bug bounty
 
 | Date | TL;DR | Incidents | Bug classes | $ at risk |
 |---|---|---|---|---|
+| [2026-10-24](briefings/2026-10-24.md) | Two new incidents this window. Initia, a Move-based Layer-1 built for interco… | NEW — Initia L1 unauthorized multi-token minting across three bridges (Day 2;… | logic-error / unbacked-token-minting + bridge-trust-asymmetry (Initia — a Mov… | Initia: ~$2.6-2.73M actually bridged out and realized (disputed between resea… |
 | [2026-10-23](briefings/2026-10-23.md) | Three new items this window, none fully resolved. The WAX multichain bridge l… | NEW — WAX multichain bridge cross-chain payment/release desync (~$75,000 acro… | bridge-verification-logic / cross-chain-accounting-desync (WAX — withdrawal r… | WAX bridge: ~$75,000 (scope unconfirmed, may still be expanding); Railway-lin… |
 | [2026-10-22](briefings/2026-10-22.md) | One new wallet-security incident this window — NGRAVE's LIQUID companion app… | NEW — NGRAVE LIQUID phishing attack (~$2.56M across ~70 wallet addresses, 4 c… | social-engineering / third-party-vendor-impersonation (NGRAVE — compromised p… | NGRAVE: ~$2.56M across ~70 wallets (BTC ~$1.77M, XRP ~$454K, ETH ~$316K, XLM… |
 | [2026-10-20](briefings/2026-10-20.md) | Quiet 24-48h window — no new confirmed active exploits found. Qubic's wallet-… | NO NEW CONFIRMED INCIDENTS this window. UPDATED — Qubic mainnet wallet-seed d… | key-management / weak-entropy-seed-generation (Qubic, standing; Coldcard's ea… | Qubic: ~$1.3M (87.1% frozen on-chain, 12.9% frozen at MEXC, unrecovered, comp… |
