@@ -2,7 +2,7 @@
 
 Automated daily security intelligence for blockchain / smart-contract bug bounty hunting. Generated every day at 11:00 JST.
 **Scope:** EVM/Solidity · Solana/Rust · Cosmos/Move · cross-chain bridges — DeFi-prioritized.
-**Latest briefing:** [2026-10-25](briefings/2026-10-25.md)
+**Latest briefing:** [2026-10-26](briefings/2026-10-26.md)
 
 ## 📅 Index (newest first)
 
@@ -10,6 +10,7 @@ Automated daily security intelligence for blockchain / smart-contract bug bounty
 
 | Date | TL;DR | Incidents | Bug classes | $ at risk |
 |---|---|---|---|---|
+| [2026-10-26](briefings/2026-10-26.md) | No brand-new active exploit confirmed this window, but two standing items esc… | UPDATE, ESCALATED — CoinDCX retired-wallet outflow (Day 6; anchor Oct 21, 202… | key-management / incomplete-wallet-retirement-after-breach (CoinDCX — an exch… | CoinDCX: 15.99M USDT (~$16M) now confirmed by the exchange itself (up from "d… |
 | [2026-10-25](briefings/2026-10-25.md) | One new incident and several substantive updates this window. X100, an Ethere… | NEW — X100 (Ethereum) governance Senate-seat takeover via flash loan (Day 1;… | access-control / governance-takeover-via-flash-loan (X100 — a flash loan fund… | X100: ~$4.85M USDT + ~550,000 X tokens drained (one source cites $4.7M instea… |
 | [2026-10-24](briefings/2026-10-24.md) | Two new incidents this window. Initia, a Move-based Layer-1 built for interco… | NEW — Initia L1 unauthorized multi-token minting across three bridges (Day 2;… | logic-error / unbacked-token-minting + bridge-trust-asymmetry (Initia — a Mov… | Initia: ~$2.6-2.73M actually bridged out and realized (disputed between resea… |
 | [2026-10-23](briefings/2026-10-23.md) | Three new items this window, none fully resolved. The WAX multichain bridge l… | NEW — WAX multichain bridge cross-chain payment/release desync (~$75,000 acro… | bridge-verification-logic / cross-chain-accounting-desync (WAX — withdrawal r… | WAX bridge: ~$75,000 (scope unconfirmed, may still be expanding); Railway-lin… |
