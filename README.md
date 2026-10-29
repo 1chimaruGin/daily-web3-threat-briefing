@@ -2,7 +2,7 @@
 
 Automated daily security intelligence for blockchain / smart-contract bug bounty hunting. Generated every day at 11:00 JST.
 **Scope:** EVM/Solidity · Solana/Rust · Cosmos/Move · cross-chain bridges — DeFi-prioritized.
-**Latest briefing:** [2026-10-28](briefings/2026-10-28.md)
+**Latest briefing:** [2026-10-29](briefings/2026-10-29.md)
 
 ## 📅 Index (newest first)
 
@@ -10,6 +10,7 @@ Automated daily security intelligence for blockchain / smart-contract bug bounty
 
 | Date | TL;DR | Incidents | Bug classes | $ at risk |
 |---|---|---|---|---|
+| [2026-10-29](briefings/2026-10-29.md) | Four new, mostly mid-size incidents entered this series in the last 24-48h, n… | NEW — Avalanche Tranche Vault (Fence Finance / Valinor Digital) flash-loan ac… | accounting-logic / stale-principal-settlement-enabling-double-withdrawal-via-… | Avalanche Tranche Vault: ~$1.01M USDC, described as "so far" by Blockaid, unr… |
 | [2026-10-28](briefings/2026-10-28.md) | Two new incidents entered this briefing series in the last 24-48h, both BNB C… | NEW — Predict.fun (BNB Chain prediction market) unauthorized wallet transfers… | infrastructure-compromise / third-party-documentation-site-to-fund-access-gap… | Predict.fun: ~$400,000 confirmed by the company (initial on-chain estimate wa… |
 | [2026-10-27](briefings/2026-10-27.md) | Three new incidents entered this briefing series in the last 24-48h, none a l… | NEW — Bloom (Solana Telegram trading bot) wallet drain (Day 2; anchor Oct 26,… | key-management / signing-authority-compromise-without-confirmed-key-exposure… | Bloom: ~$947,000-954,000 (~9,408 SOL), full reimbursement pledged by the comp… |
 | [2026-10-26](briefings/2026-10-26.md) | No brand-new active exploit confirmed this window, but two standing items esc… | UPDATE, ESCALATED — CoinDCX retired-wallet outflow (Day 6; anchor Oct 21, 202… | key-management / incomplete-wallet-retirement-after-breach (CoinDCX — an exch… | CoinDCX: 15.99M USDT (~$16M) now confirmed by the exchange itself (up from "d… |
