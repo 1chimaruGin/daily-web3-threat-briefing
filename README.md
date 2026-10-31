@@ -2,7 +2,7 @@
 
 Automated daily security intelligence for blockchain / smart-contract bug bounty hunting. Generated every day at 11:00 JST.
 **Scope:** EVM/Solidity · Solana/Rust · Cosmos/Move · cross-chain bridges — DeFi-prioritized.
-**Latest briefing:** [2026-10-30](briefings/2026-10-30.md)
+**Latest briefing:** [2026-10-31](briefings/2026-10-31.md)
 
 ## 📅 Index (newest first)
 
@@ -10,6 +10,7 @@ Automated daily security intelligence for blockchain / smart-contract bug bounty
 
 | Date | TL;DR | Incidents | Bug classes | $ at risk |
 |---|---|---|---|---|
+| [2026-10-31](briefings/2026-10-31.md) | No brand-new confirmed incident entered this series in the last 24h; the wind… | UPDATE — Binance suspected hot-wallet hack (Day 2; loss figure converging to… | key-management / signing-infrastructure-and-endpoint-compromise (Binance, upd… | Binance: figure converging to $6.3-6.4B (TRM Labs ~$6.36B, Chainalysis $6.4B,… |
 | [2026-10-30](briefings/2026-10-30.md) | The dominant story by a huge margin is a suspected hack of Binance hot wallet… | NEW — Binance suspected hot-wallet hack (Day 1; Oct 29, 2026, ~20:21-20:24 UT… | key-management / signing-infrastructure-compromise-enabling-EIP-7702-delegati… | Binance: disputed, ranging from ~$2.8B (hot-wallet-only on-chain tally) to Ch… |
 | [2026-10-29](briefings/2026-10-29.md) | Four new, mostly mid-size incidents entered this series in the last 24-48h, n… | NEW — Avalanche Tranche Vault (Fence Finance / Valinor Digital) flash-loan ac… | accounting-logic / stale-principal-settlement-enabling-double-withdrawal-via-… | Avalanche Tranche Vault: ~$1.01M USDC, described as "so far" by Blockaid, unr… |
 | [2026-10-28](briefings/2026-10-28.md) | Two new incidents entered this briefing series in the last 24-48h, both BNB C… | NEW — Predict.fun (BNB Chain prediction market) unauthorized wallet transfers… | infrastructure-compromise / third-party-documentation-site-to-fund-access-gap… | Predict.fun: ~$400,000 confirmed by the company (initial on-chain estimate wa… |
