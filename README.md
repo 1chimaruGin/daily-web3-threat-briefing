@@ -2,7 +2,7 @@
 
 Automated daily security intelligence for blockchain / smart-contract bug bounty hunting. Generated every day at 11:00 JST.
 **Scope:** EVM/Solidity · Solana/Rust · Cosmos/Move · cross-chain bridges — DeFi-prioritized.
-**Latest briefing:** [2026-11-02](briefings/2026-11-02.md)
+**Latest briefing:** [2026-11-03](briefings/2026-11-03.md)
 
 ## 📅 Index (newest first)
 
@@ -10,6 +10,7 @@ Automated daily security intelligence for blockchain / smart-contract bug bounty
 
 | Date | TL;DR | Incidents | Bug classes | $ at risk |
 |---|---|---|---|---|
+| [2026-11-03](briefings/2026-11-03.md) | Four new incidents entered this series in the last 24-48h, none approaching B… | NEW — Mercado Bitcoin ~$46.3M security breach (Day 1; Brazil's largest crypto… | key-management / exchange hot-wallet infrastructure compromise with undisclos… | Mercado Bitcoin: ~$46.3M confirmed by exchange (Arkham data), up from an init… |
 | [2026-11-02](briefings/2026-11-02.md) | Three new confirmed incidents entered this series in the last 24-48h, all sma… | NEW — Premia Labs Arbitrum vault drain (Day 1; Blockaid first flagged an "ong… | logic-error / flash-loan-enabled empty-options-pool collateral lock-and-drain… | Premia Labs: disputed ~$400,500 (Blockaid live estimate) vs $464,600/~131 ETH… |
 | [2026-10-31](briefings/2026-10-31.md) | No brand-new confirmed incident entered this series in the last 24h; the wind… | UPDATE — Binance suspected hot-wallet hack (Day 2; loss figure converging to… | key-management / signing-infrastructure-and-endpoint-compromise (Binance, upd… | Binance: figure converging to $6.3-6.4B (TRM Labs ~$6.36B, Chainalysis $6.4B,… |
 | [2026-10-30](briefings/2026-10-30.md) | The dominant story by a huge margin is a suspected hack of Binance hot wallet… | NEW — Binance suspected hot-wallet hack (Day 1; Oct 29, 2026, ~20:21-20:24 UT… | key-management / signing-infrastructure-compromise-enabling-EIP-7702-delegati… | Binance: disputed, ranging from ~$2.8B (hot-wallet-only on-chain tally) to Ch… |
