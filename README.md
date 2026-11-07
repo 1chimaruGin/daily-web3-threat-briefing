@@ -2,7 +2,7 @@
 
 Automated daily security intelligence for blockchain / smart-contract bug bounty hunting. Generated every day at 11:00 JST.
 **Scope:** EVM/Solidity · Solana/Rust · Cosmos/Move · cross-chain bridges — DeFi-prioritized.
-**Latest briefing:** [2026-11-06](briefings/2026-11-06.md)
+**Latest briefing:** [2026-11-07](briefings/2026-11-07.md)
 
 ## 📅 Index (newest first)
 
@@ -10,6 +10,7 @@ Automated daily security intelligence for blockchain / smart-contract bug bounty
 
 | Date | TL;DR | Incidents | Bug classes | $ at risk |
 |---|---|---|---|---|
+| [2026-11-07](briefings/2026-11-07.md) | A quiet day for new confirmed-loss DeFi/smart-contract exploits — both incide… | NEW — Gnosis Pay (legacy B2C card-system data breach, detected Nov 3 disclose… | data-exposure / legacy-system credential and card-data breach at a crypto-car… | Gnosis Pay: $0 confirmed funds loss, data-exposure incident only, scope and a… |
 | [2026-11-06](briefings/2026-11-06.md) | One new confirmed-loss DeFi exploit entered this series this window — a ~$555… | NEW — TENDRIL/USDT PancakeSwap V2 pool (BNB Smart Chain, Nov 4-5, ~$555,000 n… | logic-error / AMM reserve-manipulation via a custom token's sell-hook and bur… | TENDRIL: disputed between ~$309,000 and ~$555,000 depending on methodology (p… |
 | [2026-11-05](briefings/2026-11-05.md) | Two new confirmed-loss incidents entered this series this window: a small fla… | NEW — CoreVault (BNB Smart Chain, Nov 4, ~$112,200/160.26 BNB, flash-loan ora… | logic-error / flash-loan-funded price-oracle manipulation via a thin-liquidit… | CoreVault: ~$112,200-112,300 (160.26 BNB), no recovery reported; BitMart: $39… |
 | [2026-11-04](briefings/2026-11-04.md) | No brand-new confirmed-loss incident entered this series in the last 24h, but… | NO NEW CONFIRMED-LOSS INCIDENT — this window's news is root-cause disclosures… | key-management / EIP-7702 account-delegation authorization abused via a compr… | Binance: total theft figure still cited inconsistently ($6.3-6.43B range acro… |
