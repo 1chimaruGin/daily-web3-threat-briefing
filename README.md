@@ -2,7 +2,7 @@
 
 Automated daily security intelligence for blockchain / smart-contract bug bounty hunting. Generated every day at 11:00 JST.
 **Scope:** EVM/Solidity · Solana/Rust · Cosmos/Move · cross-chain bridges — DeFi-prioritized.
-**Latest briefing:** [2026-11-08](briefings/2026-11-08.md)
+**Latest briefing:** [2026-11-09](briefings/2026-11-09.md)
 
 ## 📅 Index (newest first)
 
@@ -10,6 +10,7 @@ Automated daily security intelligence for blockchain / smart-contract bug bounty
 
 | Date | TL;DR | Incidents | Bug classes | $ at risk |
 |---|---|---|---|---|
+| [2026-11-09](briefings/2026-11-09.md) | Two fresh, confirmed-loss incidents entered this window. DeFi yield aggregato… | NEW — ACryptoS (DeFi yield aggregator; Nov 9 disclosure; missing input-valida… | missing input-validation on vault share-minting allowing minimal-deposit majo… | ACryptoS: ~$665,000 confirmed drained per the project's own disclosure, depos… |
 | [2026-11-08](briefings/2026-11-08.md) | The window's lead story is a new wallet/key-infrastructure incident rather th… | NEW — Keplr/Web3Auth embedded-wallet key breach (Day 1 from Nov 6, 21:13 UTC… | key-management / embedded-wallet (MPC or DKG-based) custody-infrastructure co… | Keplr/Web3Auth: $0 officially confirmed by either company; unverified indepen… |
 | [2026-11-07](briefings/2026-11-07.md) | A quiet day for new confirmed-loss DeFi/smart-contract exploits — both incide… | NEW — Gnosis Pay (legacy B2C card-system data breach, detected Nov 3 disclose… | data-exposure / legacy-system credential and card-data breach at a crypto-car… | Gnosis Pay: $0 confirmed funds loss, data-exposure incident only, scope and a… |
 | [2026-11-06](briefings/2026-11-06.md) | One new confirmed-loss DeFi exploit entered this series this window — a ~$555… | NEW — TENDRIL/USDT PancakeSwap V2 pool (BNB Smart Chain, Nov 4-5, ~$555,000 n… | logic-error / AMM reserve-manipulation via a custom token's sell-hook and bur… | TENDRIL: disputed between ~$309,000 and ~$555,000 depending on methodology (p… |
