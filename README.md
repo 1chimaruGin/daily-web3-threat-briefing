@@ -2,7 +2,7 @@
 
 Automated daily security intelligence for blockchain / smart-contract bug bounty hunting. Generated every day at 11:00 JST.
 **Scope:** EVM/Solidity · Solana/Rust · Cosmos/Move · cross-chain bridges — DeFi-prioritized.
-**Latest briefing:** [2026-11-09](briefings/2026-11-09.md)
+**Latest briefing:** [2026-11-11](briefings/2026-11-11.md)
 
 ## 📅 Index (newest first)
 
@@ -10,6 +10,7 @@ Automated daily security intelligence for blockchain / smart-contract bug bounty
 
 | Date | TL;DR | Incidents | Bug classes | $ at risk |
 |---|---|---|---|---|
+| [2026-11-11](briefings/2026-11-11.md) | No briefing was published for Nov 10, so this edition spans Nov 9-11. The one… | NEW — Ankr cross-chain bridge (Ethereum bridge; exploit occurred Nov 9, 2026… | trusted-signer receipt forgery / replay of an already-redeemed cross-chain de… | Ankr: ~$303,600-304,500 confirmed drained across three priced assets (ankrETH… |
 | [2026-11-09](briefings/2026-11-09.md) | Two fresh, confirmed-loss incidents entered this window. DeFi yield aggregato… | NEW — ACryptoS (DeFi yield aggregator; Nov 9 disclosure; missing input-valida… | missing input-validation on vault share-minting allowing minimal-deposit majo… | ACryptoS: ~$665,000 confirmed drained per the project's own disclosure, depos… |
 | [2026-11-08](briefings/2026-11-08.md) | The window's lead story is a new wallet/key-infrastructure incident rather th… | NEW — Keplr/Web3Auth embedded-wallet key breach (Day 1 from Nov 6, 21:13 UTC… | key-management / embedded-wallet (MPC or DKG-based) custody-infrastructure co… | Keplr/Web3Auth: $0 officially confirmed by either company; unverified indepen… |
 | [2026-11-07](briefings/2026-11-07.md) | A quiet day for new confirmed-loss DeFi/smart-contract exploits — both incide… | NEW — Gnosis Pay (legacy B2C card-system data breach, detected Nov 3 disclose… | data-exposure / legacy-system credential and card-data breach at a crypto-car… | Gnosis Pay: $0 confirmed funds loss, data-exposure incident only, scope and a… |
@@ -137,6 +138,7 @@ Automated daily security intelligence for blockchain / smart-contract bug bounty
 > **Gap:** no briefings for 2026-10-14 – 2026-10-17 (4 days) — automation was not running.
 > **Gap:** no briefings for 2026-10-21 – 2026-10-21 (1 day) — automation was not running.
 > **Gap:** no briefings for 2026-11-01 – 2026-11-01 (1 day) — automation was not running.
+> **Gap:** no briefings for 2026-11-10 – 2026-11-10 (1 day) — automation was not running.
 
 <!-- INDEX:END -->
 
